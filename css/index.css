@@ -1,0 +1,127 @@
+.dataScience {
+  max-width: 100%;
+  background: #020a18;
+  padding: 8.125rem;
+}
+.dataScience .container-fluid .apply {
+  max-width: 79.813rem;
+  height: 669px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 107px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 4.25rem;
+}
+.dataScience .container-fluid .apply__title {
+  margin-top: 170px;
+  width: 30.25rem;
+  height: 314px;
+}
+.dataScience .container-fluid .apply__title h3 {
+  width: 484px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+.dataScience .container-fluid .apply__title p {
+  margin-top: 1.875rem;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+.dataScience .container-fluid .apply__title button {
+  padding: 15px 30px;
+  margin-top: 30px;
+  background: #3a68b8;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.swiper {
+  max-width: 100%;
+  padding-top: 10.625rem;
+  background: #020a18;
+}
+.swiper .mySwiper .swiper-wrapper .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #0f1624;
+  width: 362px !important;
+}
+.swiper .mySwiper .swiper-wrapper .swiper-slide .swiper-slide-icon-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 47px;
+}
+.swiper .mySwiper .swiper-wrapper .swiper-slide .swiper-slide-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+.swiper .mySwiper .swiper-wrapper .swiper-slide .swiper-slide-title {
+  margin-top: 47px;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.swiper .mySwiper .swiper-wrapper .swiper-slide h5 {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.swiper .mySwiper .swiper-wrapper .swiper-slide p {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.swiper .swiper-pagination .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
