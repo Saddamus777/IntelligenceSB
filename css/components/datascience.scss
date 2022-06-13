@@ -1,0 +1,110 @@
+.dataScience {
+	// max-width: 100%;
+	background: #020a18;
+	padding: 8.125rem;
+
+	.container-fluid {
+		.apply {
+			max-width: 79.813rem;
+			height: 669px;
+			display: flex;
+			margin-right: 107px;
+			justify-content: center;
+
+			gap: 4.25rem;
+			img {
+				position: relative;
+				overflow: hidden;
+				margin: 0;
+				height: 100%;
+				width: 100%;
+				filter: brightness(0.8);
+			}
+
+			// updates
+			img {
+				width: 100%;
+				height: 100%;
+			}
+			img::before {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				z-index: 2;
+				display: block;
+				content: '';
+				width: 0;
+				height: 0;
+				background: rgba(0, 0, 0, 0.2);
+				border-radius: 100%;
+				transform: translate(-50%, -50%);
+				opacity: 0;
+			}
+			img:hover {
+				animation: bloom ease-in-out 0.75s forwards;
+			}
+			img:hover::before {
+				animation: circle 0.75s;
+			}
+			@keyframes bloom {
+				0% {
+					filter: brightness(0.8);
+				}
+				40% {
+					filter: brightness(0.5);
+				}
+				100% {
+					filter: brightness(0);
+				}
+			}
+			@keyframes circle {
+				0% {
+					opacity: 0.5;
+					background: rgba(213, 156, 34, 0.2);
+				}
+				40% {
+					opacity: 1;
+					background: rgba(213, 34, 160, 0.2);
+				}
+				100% {
+					width: 200%;
+					height: 200%;
+					opacity: 0;
+				}
+			}
+			// finish
+			&__title {
+				margin-top: 170px;
+				width: 30.25rem;
+				height: 314px;
+
+				h3 {
+					width: 484px;
+					font-weight: 700;
+					font-size: 40px;
+					color: #ffffff;
+				}
+				p {
+					margin-top: 1.875rem;
+
+					font-weight: 600;
+					font-size: 16px;
+					color: #ffffff;
+				}
+				button {
+					padding: 15px 30px;
+					margin-top: 30px;
+					background: #3a68b8;
+					border: none;
+					border-radius: 5px;
+
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 22px;
+
+					color: #ffffff;
+				}
+			}
+		}
+	}
+}
