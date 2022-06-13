@@ -16,5 +16,15 @@
 
   &__img {
      margin-top: 170px;
+     @media all and(max-width: 1030px) {
+      max-width: 40%;
+   }
+     @media all and(max-width: 960px) {
+      max-width: 30%;
+   }
+     @media all and(max-width: 860px) {
+
+      display: none;
   }
+}
 }

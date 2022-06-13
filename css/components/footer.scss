@@ -5,6 +5,11 @@
     .container {
        display: flex;
        justify-content: space-between;
+       @media all and(max-width: 870px) {
+
+         flex-wrap: wrap;
+         gap: 15px;
+		}
     }
  
     a {
@@ -53,6 +58,9 @@
           line-height: 22px;
           color: #3a68b8;
           margin-bottom: 8px;
+          @media all and(max-width: 870px) {
+            margin-top: 30px;
+         }
        }
  
        p {

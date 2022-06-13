@@ -79,7 +79,7 @@
 				height: 314px;
 
 				h3 {
-					width: 484px;
+					max-width: 484px;
 					font-weight: 700;
 					font-size: 40px;
 					color: #ffffff;
@@ -103,8 +103,24 @@
 					line-height: 22px;
 
 					color: #ffffff;
+					@media all and(max-width: 426px) {
+						margin-top: 5px;
+					}
 				}
 			}
 		}
 	}
+	&__main-img {
+
+		@media all and(max-width: 1030px) {
+			max-width: 40%;
+		}
+		@media all and(max-width: 960px) {
+			width: 450px;
+		}
+		@media all and(max-width: 870px) {
+			display: none;
+		}
+	}
 }
+

@@ -287,7 +287,7 @@ p {
 }
 @media all and (max-width: 671px) {
   .header nav .menu-btn {
-    right: 300px;
+    right: 351px;
   }
 }
 .header .btn__right {
@@ -329,6 +329,11 @@ p {
 .intro__info {
   margin-top: 160px;
 }
+@media all and (max-width: 426px) {
+  .intro__info {
+    margin-top: 47px;
+  }
+}
 .intro__info span {
   font-family: "Open Sans";
   font-weight: 600;
@@ -354,11 +359,6 @@ p {
 @media all and (max-width: 960px) {
   .intro__info h1 {
     font-size: 30px;
-  }
-}
-@media all and (max-width: 770px) {
-  .intro__info h1 {
-    font-size: 20px;
   }
 }
 .intro__info p {
@@ -399,6 +399,12 @@ p {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+@media screen and (max-width: 426px) {
+  .intro__info-buttons a {
+    font-size: 18px;
+    padding: 13px 30px;
+  }
+}
 .intro__info-buttons a img {
   margin-right: 10px;
   margin-left: 5px;
@@ -425,6 +431,7 @@ p {
   .intro__main-img {
     width: 350px;
     margin-left: 200px;
+    display: none;
   }
 }
 
@@ -437,16 +444,6 @@ p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 50px;
-}
-@media all and (max-width: 1030px) {
-  .logos__raw {
-    width: 800px;
-  }
-}
-@media all and (max-width: 682px) {
-  .logos__raw {
-    width: 400px;
-  }
 }
 .logos__item {
   width: 18rem;
@@ -568,7 +565,7 @@ p {
   height: 314px;
 }
 .dataScience .container-fluid .apply__title h3 {
-  width: 484px;
+  max-width: 484px;
   font-weight: 700;
   font-size: 40px;
   color: #ffffff;
@@ -589,6 +586,26 @@ p {
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
+}
+@media all and (max-width: 426px) {
+  .dataScience .container-fluid .apply__title button {
+    margin-top: 5px;
+  }
+}
+@media all and (max-width: 1030px) {
+  .dataScience__main-img {
+    max-width: 40%;
+  }
+}
+@media all and (max-width: 960px) {
+  .dataScience__main-img {
+    width: 450px;
+  }
+}
+@media all and (max-width: 870px) {
+  .dataScience__main-img {
+    display: none;
+  }
 }
 
 .swiper {
@@ -689,6 +706,21 @@ p {
 .about__img {
   margin-top: 170px;
 }
+@media all and (max-width: 1030px) {
+  .about__img {
+    max-width: 40%;
+  }
+}
+@media all and (max-width: 960px) {
+  .about__img {
+    max-width: 30%;
+  }
+}
+@media all and (max-width: 860px) {
+  .about__img {
+    display: none;
+  }
+}
 
 .footer {
   background-color: #060e1c;
@@ -702,6 +734,13 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media all and (max-width: 870px) {
+  .footer .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 15px;
+  }
 }
 .footer a {
   font-family: "Open Sans";
@@ -747,6 +786,11 @@ p {
   line-height: 22px;
   color: #3a68b8;
   margin-bottom: 8px;
+}
+@media all and (max-width: 870px) {
+  .footer__info h3 {
+    margin-top: 30px;
+  }
 }
 .footer__info p {
   margin-bottom: 35px;
